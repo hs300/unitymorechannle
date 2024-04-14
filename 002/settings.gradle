@@ -1,3 +1,0 @@
-include ':launcher', ':unityLibrary'
-include ':game37'
-include ':unitywarper'

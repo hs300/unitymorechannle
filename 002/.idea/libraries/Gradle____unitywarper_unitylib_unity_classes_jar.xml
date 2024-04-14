@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="Gradle: ./unitywarper/unitylib/unity-classes.jar">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/unitywarper/unitylib/unity-classes.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

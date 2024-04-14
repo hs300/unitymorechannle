@@ -1,0 +1,105 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.unity3d.player"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="22"
+9-->E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="33" />
+10-->E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml
+11
+12    <uses-feature android:glEsVersion="0x00030000" />
+12-->E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:12:3-52
+12-->E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:12:17-49
+13    <uses-feature
+13-->E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:13:3-91
+14        android:name="android.hardware.vulkan.version"
+14-->E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:13:17-63
+15        android:required="false" />
+15-->E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:13:64-88
+16
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:14:3-65
+17-->E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:14:20-62
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:15:3-77
+18-->E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:15:20-74
+19
+20    <uses-feature
+20-->E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:16:3-88
+21        android:name="android.hardware.touchscreen"
+21-->E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:16:17-60
+22        android:required="false" />
+22-->E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:16:61-85
+23    <uses-feature
+23-->E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:17:3-99
+24        android:name="android.hardware.touchscreen.multitouch"
+24-->E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:17:17-71
+25        android:required="false" />
+25-->E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:17:72-96
+26    <uses-feature
+26-->E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:18:3-108
+27        android:name="android.hardware.touchscreen.multitouch.distinct"
+27-->E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:18:17-80
+28        android:required="false" />
+28-->E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:18:81-105
+29
+30    <application android:extractNativeLibs="true" >
+30-->E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:3:3-11:17
+30-->E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:3:16-48
+31        <activity
+31-->E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:4:5-5:16
+32            android:name="com.unity3d.player.UnityPlayerActivity"
+32-->E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:4:15-68
+33            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+33-->E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:4:180-361
+34            android:exported="true"
+34-->E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:4:433-456
+35            android:hardwareAccelerated="false"
+35-->E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:4:397-432
+36            android:launchMode="singleTask"
+36-->E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:4:148-179
+37            android:resizeableActivity="false"
+37-->E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:4:362-396
+38            android:screenOrientation="fullUser"
+38-->E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:4:111-147
+39            android:theme="@style/UnityThemeSelector" >
+39-->E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:4:69-110
+40        </activity>
+41
+42        <meta-data
+42-->E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:6:5-69
+43            android:name="unity.splash-mode"
+43-->E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:6:16-48
+44            android:value="0" />
+44-->E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:6:49-66
+45        <meta-data
+45-->E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:7:5-74
+46            android:name="unity.splash-enable"
+46-->E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:7:16-50
+47            android:value="True" />
+47-->E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:7:51-71
+48        <meta-data
+48-->E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:8:5-78
+49            android:name="unity.launch-fullscreen"
+49-->E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:8:16-54
+50            android:value="True" />
+50-->E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:8:55-75
+51        <meta-data
+51-->E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:9:5-84
+52            android:name="unity.allow-resizable-window"
+52-->E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:9:16-59
+53            android:value="False" />
+53-->E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:9:60-81
+54        <meta-data
+54-->E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:10:5-81
+55            android:name="notch.config"
+55-->E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:10:16-43
+56            android:value="portrait|landscape" />
+56-->E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:10:44-78
+57    </application>
+58
+59</manifest>

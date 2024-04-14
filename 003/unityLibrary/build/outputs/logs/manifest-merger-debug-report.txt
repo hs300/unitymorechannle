@@ -1,0 +1,127 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:2:1-19:12
+INJECTED from E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:2:1-19:12
+INJECTED from E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:2:1-19:12
+INJECTED from E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:2:1-19:12
+INJECTED from E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:2:1-19:12
+INJECTED from E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:2:1-19:12
+INJECTED from E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:2:1-19:12
+	package
+		ADDED from E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:2:70-98
+		INJECTED from E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml
+		INJECTED from E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml
+		ADDED from E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:2:1-19:12
+		INJECTED from E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:2:99-145
+	android:versionCode
+		INJECTED from E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml
+		ADDED from E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:2:1-19:12
+		INJECTED from E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:3:3-11:17
+	android:extractNativeLibs
+		ADDED from E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:3:16-48
+activity#com.unity3d.player.UnityPlayerActivity
+ADDED from E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:4:5-5:16
+	android:screenOrientation
+		ADDED from E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:4:111-147
+	android:launchMode
+		ADDED from E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:4:148-179
+	android:hardwareAccelerated
+		ADDED from E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:4:397-432
+	android:exported
+		ADDED from E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:4:433-456
+	android:resizeableActivity
+		ADDED from E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:4:362-396
+	android:configChanges
+		ADDED from E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:4:180-361
+	android:theme
+		ADDED from E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:4:69-110
+	android:name
+		ADDED from E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:4:15-68
+meta-data#unity.splash-mode
+ADDED from E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:6:5-69
+	android:value
+		ADDED from E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:6:49-66
+	android:name
+		ADDED from E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:6:16-48
+meta-data#unity.splash-enable
+ADDED from E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:7:5-74
+	android:value
+		ADDED from E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:7:51-71
+	android:name
+		ADDED from E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:7:16-50
+meta-data#unity.launch-fullscreen
+ADDED from E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:8:5-78
+	android:value
+		ADDED from E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:8:55-75
+	android:name
+		ADDED from E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:8:16-54
+meta-data#unity.allow-resizable-window
+ADDED from E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:9:5-84
+	android:value
+		ADDED from E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:9:60-81
+	android:name
+		ADDED from E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:9:16-59
+meta-data#notch.config
+ADDED from E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:10:5-81
+	android:value
+		ADDED from E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:10:44-78
+	android:name
+		ADDED from E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:10:16-43
+uses-feature#0x00030000
+ADDED from E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:12:3-52
+	android:glEsVersion
+		ADDED from E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:12:17-49
+uses-feature#android.hardware.vulkan.version
+ADDED from E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:13:3-91
+	android:required
+		ADDED from E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:13:64-88
+	android:name
+		ADDED from E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:13:17-63
+uses-permission#android.permission.INTERNET
+ADDED from E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:14:3-65
+	android:name
+		ADDED from E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:14:20-62
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:15:3-77
+	android:name
+		ADDED from E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:15:20-74
+uses-feature#android.hardware.touchscreen
+ADDED from E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:16:3-88
+	android:required
+		ADDED from E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:16:61-85
+	android:name
+		ADDED from E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:16:17-60
+uses-feature#android.hardware.touchscreen.multitouch
+ADDED from E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:17:3-99
+	android:required
+		ADDED from E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:17:72-96
+	android:name
+		ADDED from E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:17:17-71
+uses-feature#android.hardware.touchscreen.multitouch.distinct
+ADDED from E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:18:3-108
+	android:required
+		ADDED from E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:18:81-105
+	android:name
+		ADDED from E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml:18:17-80
+uses-sdk
+INJECTED from E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml
+INJECTED from E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml
+INJECTED from E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml
+INJECTED from E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml
+		ADDED from E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml
+		INJECTED from E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml
+		ADDED from E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml
+		INJECTED from E:\work\TeskBack\Build\003\unityLibrary\src\main\AndroidManifest.xml
