@@ -1,0 +1,22 @@
+include ':launcher'
+
+def projectName= ""
+
+
+
+gradle.addProjectEvaluationListener(
+        new ProjectEvaluationListener() {
+            //3.执行各个project的beforeEvaluate：在配置阶段完成
+            @Override
+            void beforeEvaluate(Project project) {
+                projectName=project.name
+                println "${project.name} Project beforeEvaluate------------------------------"
+            }
+
+            // 5.执行各个project的afterEvaluate：在配置阶段完成
+            @Override
+            void afterEvaluate(Project project, ProjectState projectState) {
+                //println "${project.name} Project afterEvaluate"
+            }
+        });
+

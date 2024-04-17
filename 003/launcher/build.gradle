@@ -67,6 +67,8 @@ android {
             dimension "versionCode"
             manifestPlaceholders.put("ProxyName","com.example.sanqi.SanQiSDK")
             applicationId 'com.snaqi.sdk'
+
+
         }
 
         tanwan{
@@ -75,10 +77,22 @@ android {
             applicationId 'com.tanwan.sdk'
         }
     }
+
+
 }
 
 dependencies {
     implementation project(path: ':unitywrapper')
     tanwanImplementation project(':tanwansdk')
     sanqiImplementation project(':sanqi')
+}
+
+task aataskZ{ // 多依赖方式：dependsOn:[taskX,taskY]
+    dependsOn 'assembleTanwanRelease','assembleSanqiRelease'
+    doLast{
+        println 'taskZ'
+        println("out path" + outputs.files.asPath)
+    }
+
+    println("xxxx"+ name)
 }

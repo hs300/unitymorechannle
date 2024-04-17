@@ -27,3 +27,8 @@ allprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+task taskZ{ // 多依赖方式：dependsOn:[taskX,taskY]
+    doLast{
+        println 'taskZ'
+    }
+}

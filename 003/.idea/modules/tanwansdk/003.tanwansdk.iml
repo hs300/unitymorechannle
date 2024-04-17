@@ -36,6 +36,7 @@
       <sourceFolder url="file://$MODULE_DIR$/../../../tanwansdk/src/test/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../../tanwansdk/build/generated/ap_generated_sources/debug/out" isTestSource="false" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../../tanwansdk/build/generated/source/buildConfig/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../tanwansdk/src/main/res" type="java-resource" />
       <excludeFolder url="file://$MODULE_DIR$/../../../tanwansdk/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/../../../tanwansdk/build" />
     </content>

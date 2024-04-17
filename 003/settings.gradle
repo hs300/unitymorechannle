@@ -1,4 +1,106 @@
-include ':launcher', ':unityLibrary'
+include ':launcher'
+include ':unityLibrary'
+project(':unityLibrary').projectDir = file('../../AndroidOutPut/Android/unityLibrary')
 include ':unitywrapper'
+
 include ':tanwansdk'
 include ':sanqi'
+
+def projectName= ""
+def currPath = ""
+def runCommand(String... command) {
+    ProcessBuilder processBuilder = new ProcessBuilder()
+    processBuilder.redirectErrorStream(true)
+    processBuilder.command(command)
+    Process process = processBuilder.start()
+    println("process start")
+    InputStreamReader inputReader = new InputStreamReader(process.getInputStream(), "UTF-8")
+    BufferedReader bufferedReader = new BufferedReader(inputReader)
+    String line
+    while ((line = bufferedReader.readLine()) != null) {
+        println(line)
+    }
+    process.waitFor()
+    println("process finish")
+}
+
+
+gradle.addProjectEvaluationListener(
+        new ProjectEvaluationListener() {
+            //3.执行各个project的beforeEvaluate：在配置阶段完成
+            @Override
+            void beforeEvaluate(Project project) {
+                projectName=project.name
+                println "${project.name} Project beforeEvaluate"
+
+                println "${project.rootDir} Project beforeEvaluate"
+                currPath = project.rootDir
+            }
+
+            // 5.执行各个project的afterEvaluate：在配置阶段完成
+            @Override
+            void afterEvaluate(Project project, ProjectState projectState) {
+                //println "${project.name} Project afterEvaluate"
+            }
+        });
+
+gradle.beforeProject {
+    // 4.执行各个project的beforeProject：在配置阶段完成
+    if(projectName == "unityLibrary"){
+        //println "${projectName} beforeProject..."
+        //runCommand('cmd', '/c', 'testGradle.py')
+
+        //println "${RootDir} "
+    }
+}
+
+gradle.buildFinished{
+    println("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx")
+    println(project(':unityLibrary').projectDir)
+
+}
+
+gradle.addBuildListener(new BuildListener() {
+    @Override
+    void buildStarted(Gradle gradle) {
+
+    }
+
+    @Override
+    void settingsEvaluated(Settings settings) {
+
+    }
+
+    @Override
+    void projectsLoaded(Gradle gradle) {
+
+    }
+
+    @Override
+    void projectsEvaluated(Gradle gradle) {
+
+    }
+
+    @Override
+    void buildFinished(BuildResult buildResult) {
+        buildResult.
+        println("aaaaaaaaaaaaaaaaaaaa")
+    }
+})
+
+gradle.taskGraph.afterTask { Task task, TaskState state ->
+    if (state.failure) {
+        println "-----FAILED"
+    }
+    else {
+
+        if(task.name == "assembleTanwanDebug"){
+            println "-----done"
+        }
+    }
+}
+
+
+//https://blog.csdn.net/qq_37475168/article/details/128776418  gradle 学习
+//https://blog.csdn.net/weixin_42863849/article/details/121611393 gradle 调用cmd
+//https://blog.csdn.net/gqg_guan/article/details/128305585       gradle task hock
