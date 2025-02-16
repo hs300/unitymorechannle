@@ -8,3 +8,5 @@ unityproject/unityproject.sln
 /unityproject/AndroidOutPut/Android/unityLibrary/build
 /unityproject/AndroidOutPut/Android_BurstDebugInformation_DoNotShip
 /unityproject/AndroidOutPut
+/003/.gradle
+/003/.idea
