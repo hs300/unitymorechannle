@@ -1,0 +1,7 @@
+unityproject/Library
+unityproject/Logs
+unityproject/Temp
+unityproject/Temp
+*.csproj
+unityproject/UserSettings
+unityproject/unityproject.sln
