@@ -1,6 +1,6 @@
 include ':launcher'
 include ':unityLibrary'
-project(':unityLibrary').projectDir = file('../../AndroidOutPut/Android/unityLibrary')
+project(':unityLibrary').projectDir = file('../unityproject/AndroidOutPut/Android/unityLibrary')
 include ':unitywrapper'
 
 include ':tanwansdk'

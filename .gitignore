@@ -1,7 +1,10 @@
 unityproject/Library
-unityproject/Logs
-unityproject/Temp
 unityproject/Temp
 *.csproj
 unityproject/UserSettings
 unityproject/unityproject.sln
+/003/launcher/build
+/unityproject/Logs
+/unityproject/AndroidOutPut/Android/unityLibrary/build
+/unityproject/AndroidOutPut/Android_BurstDebugInformation_DoNotShip
+/unityproject/AndroidOutPut
