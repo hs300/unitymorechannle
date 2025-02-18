@@ -2,4 +2,16 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.sanqi">
 
+    <application
+        android:name=".WZApplication"
+        >
+        <meta-data
+            android:name="TANWAN_GAME_ID"
+            android:value="101" />
+        <meta-data
+            android:name="TANWAN_APP_KEY"
+            android:value="yWpx3hWQHFhSnTCj#101#6KuRKuaAjLJ5sYRy" />
+
+    </application>
+
 </manifest>

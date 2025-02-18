@@ -3,20 +3,23 @@ import android.app.Activity;
 import android.content.Intent;
 import android.content.res.Configuration;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.KeyEvent;
 
-public abstract class SDKProxy {
-    protected SDKDelegate m_SDKDelegate;
-    public void setDelegate(SDKDelegate delegate){
+// extends activity is not good
+public abstract class SDKProxy   {
+    protected JavaMsgReceiver m_SDKDelegate;
+    protected Activity _mainActivity;
+    protected Bundle _saveInstanceState;
+    protected boolean _sdkHasInit = false;
+    public void setDelegate(JavaMsgReceiver delegate){
         m_SDKDelegate = delegate;
     }
-    public abstract void sdkInit();
-    public abstract void sdkLogin();
     public abstract String callFunWithArg(String funName, String arg);
 
-
-    public abstract void onCreate(Activity activity, Bundle saveInstanceState);
+    public void onCreate(Activity activity, Bundle saveInstanceState){
+        _mainActivity = activity;
+        _saveInstanceState = saveInstanceState;
+    }
     public abstract void onPause();
     public abstract void onResume();
     public abstract void onConfigurationChanged(Configuration newConfig);
@@ -31,4 +34,5 @@ public abstract class SDKProxy {
     public abstract boolean onKeyDown(int keyCode, KeyEvent event);
     public abstract void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults);
     public abstract void onWindowFocusChanged(boolean hasFocus);
+
 }

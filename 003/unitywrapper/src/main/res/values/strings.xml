@@ -1,1 +1,4 @@
-<resources></resources>
+<resources>
+    <string name="shushu_id">xxxx</string>
+    <string name="shushu_server_url">vvvvv</string>
+</resources>

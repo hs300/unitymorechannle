@@ -2,4 +2,7 @@
 <resources>
   <string name="app_name">三七App</string>
   <string name="game_view_content_description">Game view</string>
+
+  <string name="shushu_id">sanqi</string>
+  <string name="shushu_server_url">sanqipeizhiserverurl</string>
 </resources>

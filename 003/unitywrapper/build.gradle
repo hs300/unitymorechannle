@@ -28,7 +28,8 @@ android {
 
 dependencies {
 
-
+    implementation fileTree(dir: 'libs', include: ['**/*.aar'])
+    implementation fileTree(dir: 'libs', include: ['**/*.jar'])
     implementation project(path: ':unityLibrary')
     compileOnly fileTree(dir: '../unityLibrary/libs/', include: ['*.jar'])
 }

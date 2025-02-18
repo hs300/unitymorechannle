@@ -1,5 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.tanwansdk">
+    <application android:name=".TWApplication">
 
+        <meta-data
+            android:name="WANZI_GAME_ID"
+            android:value="2522" />
+        <meta-data
+            android:name="WANZI_APP_KEY"
+            android:value="5f109250d5ecc0cb978f36c19dfa0023" />
+        <meta-data
+            android:name="WANZI_USE_AUTHENTICATION_CALLBACK"
+            android:value="true" />
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
+    <uses-permission android:name="com.asus.msa.SupplementaryDID.ACCESS" />
 </manifest>

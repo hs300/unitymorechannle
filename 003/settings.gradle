@@ -5,7 +5,7 @@ include ':unitywrapper'
 
 include ':tanwansdk'
 include ':sanqi'
-
+include ':mypro'
 def projectName= ""
 def currPath = ""
 def runCommand(String... command) {
